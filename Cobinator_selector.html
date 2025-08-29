@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combinator selector</title>
     <style>
+        /*Decendent combinator*/
         div ul li{
             color: red;
+        }
+        /*Child combinator*/
+        div > p{
+            color: blue;
         }
     </style>
 </head>
@@ -14,11 +19,19 @@
     <!--Decendent combinator-->
     <div>
         <ul>
-            <li>list item</li>
+           <section><li>list item</li></section> 
             <li>list item</li>
             <li>list item</li>
             <li>list item</li>
         </ul>
-    </div>
+    </div><br><hr>
+    <!--Child combinator-->
+    <div>
+        <p>paragraph content</p>
+        <article>
+            <p>paragraph content</p>
+        </article>
+    </div><br><hr
+    
 </body>
 </html>
