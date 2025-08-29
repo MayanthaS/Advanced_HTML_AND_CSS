@@ -19,6 +19,12 @@
             text-decoration: dotted underline;
             color: green;
         }
+        /*general sibling combinator*/
+        h2 ~ p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: wavy underline;
+            color: orange;
+        }
     </style>
 </head>
 <body>
@@ -51,5 +57,20 @@
          <p>stuff in my paragraph</p>
             
     </div>
+    <br><hr>
+    <!--general sibling combinator-->
+    <div>
+       <h2>Exapmple element</h2>
+       <article>stuff in my article</article>
+         <p>stuff in my paragraph</p>
+         <p>stuff in my paragraph</p>
+         <h2>Exapmple element</h2>
+       <article>stuff in my article</article>
+         <p>stuff in my paragraph</p>
+         <p>stuff in my paragraph</p>
+         <h2>Exapmple element</h2>
+       <article>stuff in my article</article>
+         <p>stuff in my paragraph</p>
+         <p>stuff in my paragraph</p>
 </body>
 </html>

@@ -1,0 +1,44 @@
+/*pseudo classes*
+.Ink{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.Ink:hover{
+    background-color: violet;
+    color: red;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    text-decoration: underline;
+    padding: 0px 5px;
+}
+.Ink:active{
+    background-color: yellow;
+    color: brown;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    text-decoration: overline;
+    padding: 0px 5px;
+}
+.Ink:visited{
+    background-color: lightgrey;
+    color: green;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    text-decoration: line-through;
+    padding: 0px 5px;
+}
+.chl p:first-child{
+    color: blue;
+
+}
+.chl p:last-child{
+    color: red;
+}
+.chl p:nth-child(5){
+    color: green;
+}
+input[type="text"]:focus{
+    background-color: pink;
+}
+input[type="text"]:valid{
+    background-color: lightgreen;
+}
+    */
