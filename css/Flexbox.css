@@ -1,0 +1,12 @@
+/*basic styling*/
+.container-1 >div{
+    border: 1px black solid;
+    padding: 10px;
+    background-color: gray;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*flex box*/
+.container-1{
+    display: flex;
+}
