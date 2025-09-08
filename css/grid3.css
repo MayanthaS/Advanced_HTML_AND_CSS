@@ -23,5 +23,10 @@
     justify-self:center ;
 }
 .box3{
+    justify-self: end;
     align-self: end;
+}
+.box4{
+    justify-self: end;
+    align-self: center;
 }
