@@ -1,0 +1,21 @@
+/*Basic style*/
+body{
+    background-color: #333;
+}
+.box{
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    transition-property: background-color,border-radius,transform;
+    transition-duration: 1s; 
+    transition-timing-function: ease-in-out;
+}
+.box:hover{
+    background-color: coral;
+    border-radius: 30%;
+    transform: rotateX(360deg) rotateY(360deg);
+
+}
