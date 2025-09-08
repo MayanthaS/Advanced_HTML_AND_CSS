@@ -1,0 +1,75 @@
+/* basic style*/
+body{
+    background-color: #333;
+}
+/*box*/
+.box{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: sampleanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /*animation-delay:1s ;
+    animation-direction: reverse;
+    animation-direction: alternate;*/
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+/*key frames*/
+/*key frames with movement
+@keyframes sampleanimation{
+    0%{
+        background-color: white;
+        left: 0px;
+        top: 0px;
+        border-radius: 0%;    }
+    25%{
+        background-color: blue;
+        left: 0px;
+        top: 250px;
+        border-radius: 10%;
+    }
+    50%{
+        background-color: blueviolet;
+        left: 250px;
+        top: 250px;
+        border-radius: 25%;
+    }
+    75%{
+        background-color: chocolate;
+        left: 250px;
+        top: 0px;
+        border-radius: 37%;
+    }
+    100%{
+        background-color: wheat;
+        left: 0px;
+        top: 0px;
+        border-radius: 50%;
+    }
+}*/
+/*keyframes without movemnet*/
+@keyframes sampleanimation{
+    0%{
+        background-color: white;
+        border-radius: 0%;    }
+    25%{
+        background-color: blue;
+        border-radius: 10%;
+    }
+    50%{
+        background-color: blueviolet;
+        border-radius: 25%;
+    }
+    75%{
+        background-color: chocolate;
+        border-radius: 37%;
+    }
+    100%{
+        background-color: wheat;
+        border-radius: 50%;
+    }
+}
