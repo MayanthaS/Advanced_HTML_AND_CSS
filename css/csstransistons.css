@@ -16,6 +16,9 @@ body{
 .box:hover{
     background-color: coral;
     border-radius: 30%;
-    transform: rotateX(360deg) rotateY(360deg);
+    transform: rotateX(180deg) rotateY(180deg)
+    rotateZ(180deg);
+    margin:auto auto auto 400px;
+    opacity: 0.2;
 
 }
